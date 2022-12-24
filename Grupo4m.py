@@ -1,9 +1,10 @@
-#!/usr/bin/env python
-# coding: utf-8
+!/usr/bin/env python
+coding: utf-8
 # %%
 
 import pandas as pd
 import streamlit as st
+import streamlit.express as px 
 
 
 # %%
@@ -46,32 +47,29 @@ if selected=="Referencias Bibliográficas":
 
 
 
-# <center> <h2>Docente : Ingeniero Renzo Bolivar</h2> </center> 
-
-# <center> <h1>Curso : Computación 1</h1> </center> 
-
-# ![linea 1](https://1.bp.blogspot.com/-l1ezJc1oWBU/XRo8vWjDDbI/AAAAAAAAVPc/iy8yM9jcpHY-9gdmEmhhXj9LWwnb2vyEACPcBGAYYCw/s1600/line.png)
+("<center> <h2>Docente : Ingeniero Renzo Bolivar</h2> </center>") 
+("<center> <h1>Curso : Computación 1</h1> </center>") 
+![linea 1](https://1.bp.blogspot.com/-l1ezJc1oWBU/XRo8vWjDDbI/AAAAAAAAVPc/iy8yM9jcpHY-9gdmEmhhXj9LWwnb2vyEACPcBGAYYCw/s1600/line.png)
+ 
+(" <center> <h2>GRUPO C - Nº4</h2> </center>") 
+("<h2>INTEGRANTES:  </h2>")
+("<h2>")    
+# 
+("     Condori Canales Lenin")
+("     Lope Condori Santiago Isaac")
+("     Montalvo Pacori Ivan")
+("     Ramos Catari Joaquin")
+("     Vilca Medina Milagros Mercedes")
+(" </h2>")
 # 
 
-# <center> <h2>GRUPO C - Nº4</h2> </center> 
-# <h2>INTEGRANTES:  </h2>
-# <h2>    
-# 
-#     Condori Canales Lenin
-#     Lope Condori Santiago Isaac
-#     Montalvo Pacori Ivan
-#     Ramos Catari Joaquin
-#     Vilca Medina Milagros Mercedes
-# </h2>
-# 
-
-# ![linea 1](https://img.wattpad.com/d0459112dc912728bd12cfbbee3e14288328f431/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f6675746d7558494e754c713469413d3d2d3638343838313935352e313537626634616632343733343766333839333030353637363834372e706e67)
+![linea 1](https://img.wattpad.com/d0459112dc912728bd12cfbbee3e14288328f431/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f6675746d7558494e754c713469413d3d2d3638343838313935352e313537626634616632343733343766333839333030353637363834372e706e67)
 
 # <center> <h1>INVESTIGACIÓN FORMATIVA</h1> </center> 
 # <center> <h1>PROYECTO FINAL</h1> </center> 
 # <center> <h1>PYTHON - Inteligencia Artificial</h1> </center> 
 
-# ![linea 1](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBBY0Yv9Rgkt2VP8sRGkH3HHe-ACto1_aV452b399eG0isDuDhRx6PlT_u_67LPVt8OQ&usqp=CAU)  
+![linea 1](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBBY0Yv9Rgkt2VP8sRGkH3HHe-ACto1_aV452b399eG0isDuDhRx6PlT_u_67LPVt8OQ&usqp=CAU)  
 # 
 
 # ## OBJETIVOS
@@ -416,91 +414,90 @@ if selected=="Referencias Bibliográficas":
 # Es importante tener en cuenta que siempre que es posible reshape devuelve una vista del objeto original. No un nuevo objeto con los valores. Por lo que, en caso de modificar los valores en la vista, también se modificarán en el objeto original y viceversa. Efecto que se puede observar en el siguiente ejemplo.
 # arr = np.arange(4)
 # arr2d = np.reshape(arr, (2,2))
-# arr2d[1][1] = 9
-# print(arr)
-# print(arr2d)
+("arr2d[1][1] = 9")
+("print(arr)")
+("print(arr2d)")
 # 
-# [0 1 2 9]
-# [[0 1]
-#  [2 9]]
-# 
-# 
-
-# ### Numpy.sqrt 
-
-# 
-# numpy.sqrt(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature, extobj]) = <ufunc 'sqrt'>
-# 
-# Return the non-negative square-root of an array, element-wise.
-# 
-# Parameters
-# 
-#     xarray_like
-# 
-#         The values whose square-roots are required.
-#     outndarray, None, or tuple of ndarray and None, optional
-# 
-#         A location into which the result is stored. If provided, it must have a shape that the inputs broadcast to. If not provided or None, a freshly-allocated array is returned. A tuple (possible only as a keyword argument) must have length equal to the number of outputs.
-#     wherearray_like, optional
-# 
-#         This condition is broadcast over the input. At locations where the condition is True, the out array will be set to the ufunc result. Elsewhere, the out array will retain its original value. Note that if an uninitialized out array is created via the default out=None, locations within it where the condition is False will remain uninitialized.
-#     **kwargs
-# 
-#         For other keyword-only arguments, see the ufunc docs.
-# 
-# Returns
-# 
-#     yndarray
-# 
-#         An array of the same shape as x, containing the positive square-root of each element in x. If any element in x is complex, a complex array is returned (and the square-roots of negative reals are calculated). If all of the elements in x are real, so is y, with negative elements returning nan. If out was provided, y is a reference to it. This is a scalar if x is a scalar.
+("[0 1 2 9]")
+("[[0 1]")
+("[2 9]]")
 # 
 # 
 
+("Numpy.sqrt ")
+
 # 
-# ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
+numpy.sqrt(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature, extobj]) = <ufunc 'sqrt'>
+# 
+("Return the non-negative square-root of an array, element-wise.")
+# 
+("Parameters")
+# 
+("xarray_like")
+# 
+("The values whose square-roots are required.")
+outndarray, None, or tuple of ndarray and None, optional
+# 
+("A location into which the result is stored. If provided, it must have a shape that the inputs broadcast to. If not provided or None, a freshly-allocated array is returned. A tuple (possible only as a keyword argument) must have length equal to the number of outputs.")
+("wherearray_like, optional")
+# 
+("This condition is broadcast over the input. At locations where the condition is True, the out array will be set to the ufunc result. Elsewhere, the out array will retain its original value. Note that if an uninitialized out array is created via the default out=None, locations within it where the condition is False will remain uninitialized.")
+("**kwargs")
+# 
+("For other keyword-only arguments, see the ufunc docs.")
+# 
+("Returns")
+# 
+("yndarray")
+# 
+("An array of the same shape as x, containing the positive square-root of each element in x. If any element in x is complex, a complex array is returned (and the square-roots of negative reals are calculated). If all of the elements in x are real, so is y, with negative elements returning nan. If out was provided, y is a reference to it. This is a scalar if x is a scalar.")
+# 
+# 
 
-# <center> <h1>Propuesta</h1> </center> 
+# 
+![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
 
-# ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
+("<center> <h1>Propuesta</h1> </center>") 
 
-# ## 1.- Dataset
+![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
 
-# <div class="alert alert-info">
+(" 1.- Dataset")
+
+ <div class="alert alert-info">
 # 
 #     
-#    Para poder tener el  <strong>Datset</strong> hay que recolectar información con una encuenta elaborada por nosotros.
+("    Para poder tener el  <strong>Datset</strong> hay que recolectar información con una encuenta elaborada por nosotros.")
 #     
-# </div>
+</div>
 
-# #### Encuesta Lugares a los que nos gustaría viajar:
+(" Encuesta Lugares a los que nos gustaría viajar:")
 
-# La encuesta la realizamos en Google-Form donde se solicitara escoger un Lugar al que le gustaría viajar.
-# - Donde si escoge 1 es el que menos le gusta hasta 5 que es el que mas le gusta (escala de liker)
+(" La encuesta la realizamos en Google-Form donde se solicitara escoger un Lugar al que le gustaría viajar.")
+(" - Donde si escoge 1 es el que menos le gusta hasta 5 que es el que mas le gusta (escala de liker)")
 
-# #### Formulario de Lugares a los que me gustaría viajar (Preguntas)
-# ![1.png](attachment:1.png)
+(" Formulario de Lugares a los que me gustaría viajar (Preguntas)")
+![1.png](attachment:1.png)
 # 
 
-# ![5.png](attachment:5.png)
+![5.png](attachment:5.png)
 
 # 
 # 
 # 
+(" Formulario de Lugares a los que me gustaría viajar") 
 # 
-# #### Formulario de Lugares a los que me gustaría viajar 
-# 
-# ![2.png](attachment:2.png)
+![2.png](attachment:2.png)
 
-# ![3.png](attachment:3.png)
+![3.png](attachment:3.png)
 
-# ![4.png](attachment:4.png)
+![4.png](attachment:4.png)
 
-# #### Formulario de Lugares a los que me gustaría viajar(Preprocesamiento)
+(" Formulario de Lugares a los que me gustaría viajar(Preprocesamiento)")
 
 # %%
 
 
-#Importamos librerias para Ciencia de Datos y Machine Learning
+("Importamos librerias para Ciencia de Datos y Machine Learning")
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -509,11 +506,11 @@ import seaborn as sns
 # %%
 
 
-#archivo CSV separado por comas
+("archivo CSV separado por comas")
 
 data = pd.read_csv("Lugares.csv")
 
-#leer  lineas
+("leer  lineas")
 data
 
 
@@ -529,7 +526,7 @@ data.shape
 data.dtypes
 
 
-# ## IMPUTACIÓN DE VALORES NULOS 
+(" IMPUTACIÓN DE VALORES NULOS") 
 
 # %%
 
@@ -541,9 +538,9 @@ data1
 # 
 # 
 
-# ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
+![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
 
-# ## 2.- Correlación de Pearson  (Similitud)
+(" 2.- Correlación de Pearson  (Similitud)")
 
 # %%
 
@@ -554,7 +551,7 @@ print(n)
 print(m)
 
 
-# ## 3.- Correlación en Pandas
+(" 3.- Correlación en Pandas")
 
 # %%
 
@@ -576,9 +573,9 @@ m_corr = df1.corr()
 m_corr
 
 
-# ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
+![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
 
-# ## 4.- Matrix de Correlación
+(" 4.- Matrix de Correlación")
 
 # %%
 
@@ -603,16 +600,16 @@ pandas= m_corr_pandas.unstack()
 print(pandas.sort_values(ascending=False)[range(len(n),((len(n)+4)))])
 
 
-# ## Gráfica de Calor
+(" Gráfica de Calor")
 
-# <div class="alert alert-info">
+<div class="alert alert-info">
 # 
 #     
-#    **HALLAR**: a partir de la matriz de correlación en  <strong>Pandas</strong> .
+("    **HALLAR**: a partir de la matriz de correlación en  <strong>Pandas</strong>")
 #     
-#    **Instalar** : `matplotlib` `seaborn`
+("    **Instalar** : `matplotlib` `seaborn`")
 #     
-# </div>
+(" </div>")
 
 # %%
 
@@ -628,10 +625,10 @@ sns.heatmap(m_corr_pandas)
 
 ("Validación - Matrix de Correlación")
 
-# Se realiza la validación de los resultados obtenidos con la   `Matriz de Correlación de Pearson` en `Numpy` 
+(" Se realiza la validación de los resultados obtenidos con la   `Matriz de Correlación de Pearson` en `Numpy`")
 #  
 
-# ### VALIDACION:
+(" VALIDACION:")
 
 # %%
 
@@ -681,26 +678,26 @@ import matplotlib.pyplot as plt
 sns.heatmap(correlacion)
 
 
-# ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
+![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
 
-# <center> <h1>Conclusiones</h1> </center> 
+("<center> <h1>Conclusiones</h1> </center>") 
 
-# ##  ¿Se validó o no los resultados?
-# 
-#    -Si se validaron los resultados a través de numpy.
+("  ¿Se validó o no los resultados?")
 
-# ## Los resultados Validados son:
+("  -Si se validaron los resultados a través de numpy.")
+
+("Los resultados Validados son:")
 #  
 
 # %%
 
 
-#RESULTADO 1:
+("RESULTADO 1:")
 pandas= m_corr_pandas.unstack()
 
 print(pandas.sort_values(ascending=False)[range(len(n),((len(n)+4)))])
 
-#RESULTADO 2:
+("RESULTADO 2:")
 pandas1= correlacion.unstack()
 
 print(pandas1.sort_values(ascending=False)[range(len(n),((len(n)+4)))])
